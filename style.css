@@ -1,0 +1,659 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+      background-color: black;
+       gap: 10px;
+ 
+       
+}
+.content1{
+  
+    height: 100px;
+   
+    /* justify-content:flex-end; */
+}
+/* img{
+        justify-content:flex-end;
+          align-self: center;
+} */
+div{
+    color: white;
+   align-items: center;
+row-gap: 70px;
+   
+}
+button{
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(15, 14, 14, 0.856);
+    border-radius: 40%;
+    padding: 20px;
+
+}
+.button1{
+        color: white;
+    background-color: rgb(228, 44, 44);
+    border-radius: 40%;
+    padding:20px;
+    width: 150px;
+    border: none;
+}
+.content2>img{
+position: absolute;
+top: 100px;
+left: 0px;
+justify-content: space-evenly;
+
+}
+.bg{
+     background-color: black;
+     /* flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: flex-end; */ 
+     position: absolute;
+     top: 648px;
+     width: 1350px;
+     height: 580px;
+}
+.items{
+  position: absolute;
+  left: 500px;
+bottom: 330px;
+font-family: Arial, Helvetica, sans-serif;
+max-width: 250px;
+min-width: 780px;
+}
+.items1{
+      position: absolute;
+  left: 500px;
+bottom: 290px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.items2{
+          position: absolute;
+  left: 390px;
+bottom: 260px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(143, 143, 143);
+}
+/* .images{
+              position: relative;
+
+top: 900px;
+left: 20px;
+align-self: flex-start;
+} */
+ .images{
+              position: absolute;
+  left: 150px;
+
+top: 1000px;
+/* align-self: flex-end; */
+/* bottom: 
+0px; */
+}
+.button2{
+                  position: absolute;
+  left: 180px;
+
+top: 1180px;
+border:1px solid white;
+border-radius: 40%;
+
+}
+ .images1{
+              position: absolute;
+  left: 450px;
+
+top: 1000px;
+ }
+ .button3{
+                      position: absolute;
+  left: 500px;
+
+top: 1180px;
+border:1px solid white;
+border-radius: 40%;
+
+ }
+ .images2{
+              position: absolute;
+  left: 750px;
+
+top: 1000px;
+ }
+  .button4{
+                      position: absolute;
+  left: 800px;
+
+top: 1180px;
+border:1px solid white;
+border-radius: 40%;
+
+ }
+
+ .images3{
+              position: absolute;
+  left: 1050px;
+
+top: 1000px;
+ }
+ .button5{
+                          position: absolute;
+  left: 1150px;
+
+top: 1180px;
+border:1px solid white;
+border-radius: 40%;
+ }
+ .bg1{
+background-color: rgb(39, 39, 39);
+position: absolute;
+top:1230px ;
+left: 0px;
+   width: 1350px;
+     height: 1180px;
+ 
+ }
+ .third{
+     position: absolute;
+   top: 80px;
+   left: 500px;
+   font-size: 50px;
+   font-weight: bold;
+ }
+ .third1{
+         position: absolute;
+   top: 150px;
+   left: 400px;
+   font-size: 50px;
+   font-weight: bold;
+   font-family: monospace;
+ }
+ /* .content1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 2000px;
+ } */
+  .third2{
+   font-family: Arial, Helvetica, sans-serif;
+color: rgb(143, 143, 143);
+position: absolute;
+top: 220px;
+left: 300px;
+
+  }
+  .third3{
+    position: absolute;
+top: 300px;
+left: 130px;
+  }
+.third4{
+       position: absolute;
+top: 320px;
+left: 130px;
+}
+.third5{
+           position: absolute;
+top: 340px;
+left: 130px;
+}
+.third6{
+    position: absolute;
+    top: 360px;
+    left: 130px;
+}
+.third7{
+        position: absolute;
+    top: 280px;
+    left: 600px;
+    width: 500px;
+    height: 250px;
+}
+.button6{
+
+    position: absolute;
+    top: 400px;
+    left: 130px;
+    border-radius: 40%;
+    padding: 10px;
+}
+.third8{
+     position: absolute;
+top: 590px;
+left: 830px; 
+}
+#v1{
+  position: absolute;
+  top: 200px;
+  left: 600px;
+}
+#v2{
+  position: absolute;
+  top: 220px;
+  left: 600px;
+}
+#v3{
+  position: absolute;
+    top: 240px;
+  left: 600px;
+}
+#v4{
+  position: absolute;
+    top: 260px;
+  left: 600px;
+}
+#v5{
+  position: absolute;
+    top: 300px;
+  left: 600px;
+  padding: 15px;
+  border: none;
+}
+.button7:hover{
+  background-color: black;
+  border: 1px solid rgb(58, 232, 58);
+}
+.third9{
+        position: absolute;
+top: 615px;
+left: 830px; 
+}
+.third10{
+          position: absolute;
+top: 635px;
+left: 830px; 
+}
+.third11{
+            position: absolute;
+top: 654px;
+left: 830px; 
+}
+.button7{
+     position: absolute;
+    top: 690px;
+    left: 830px;
+    border-radius: 40%;
+    padding: 10px; 
+    background-color: rgb(43, 224, 43);
+}
+.third12{
+         position: absolute;
+    top: 570px;
+    left: 100px;
+    width: 500px;
+    height: 250px; 
+}
+#Bahawalpur{
+     position: absolute;
+top: 860px;
+left: 130px; 
+}
+#Bahawalpur1{
+        position: absolute;
+top: 880px;
+left: 130px; 
+}
+#Bahawalpuraddress{
+          position: absolute;
+top: 900px;
+left: 130px; 
+}
+#Bahawalpurphone{
+            position: absolute;
+top: 925px;
+left: 130px;
+}
+.button8{
+     position: absolute;
+    top: 980px;
+    left: 130px;
+    border-radius: 40%;
+    padding: 10px; 
+}
+#Bahawalpurimage{
+              position: absolute;
+top: 850px;
+left: 630px;
+}
+/* .express{
+position: absolute;
+top:1230px ;
+left: 0px;
+   width: 1350px;
+     height: 1180px;
+
+} */
+.express1{
+   position: absolute;
+top: 2410px;
+left: 0px;
+width: 1350px;
+height: 1400px;
+background-color: rgb(36, 36, 36);
+}
+.express2{
+           position: absolute;
+   top: 2450px;
+   left: 400px;
+   font-size: 50px;
+   font-weight: bold;
+   align-self: center;
+}
+.express3{
+          position: absolute;
+   top: 2510px;
+   left: 320px;
+   font-size: 50px;
+   font-weight: bold;
+   align-self: center;
+   font-family: sans-serif;
+}
+.express4{
+           position: absolute;
+   top: 30px;
+   left: 400px;
+   font-size: 50px;
+   font-weight: bold;
+   align-self: center;
+}
+.express5{
+          position: absolute;
+   top: 80px;
+   left: 370px;
+   font-size: 50px;
+   font-weight: bold;
+   align-self: center;
+   font-family: monospacet;
+}
+#village{
+  position: absolute;
+  top: 200px;
+  left: 60px;
+      width: 500px;
+    height: 250px; 
+}
+#black{
+      position: absolute;
+    top: 2590px;
+    left: 50px;
+    width: 400px;
+    height: 250px; 
+}
+#black1{
+       position: absolute;
+    top: 2590px;
+    left: 480px;
+    width: 400px;
+    height: 250px; 
+}
+#black2{
+         position: absolute;
+    top: 2590px;
+    left: 900px;
+    width: 400px;
+    height: 250px; 
+}
+#black3{
+         position: absolute;
+    top: 2990px;
+    left: 50px;
+    width: 400px;
+    height: 250px;
+}
+#black4{
+           position: absolute;
+    top: 2990px;
+    left: 480px;
+    width: 400px;
+    height: 250px;
+}
+#black5{
+         position: absolute;
+    top: 2990px;
+    left: 900px;
+    width: 400px;
+    height: 250px; 
+}
+#black6{
+         position: absolute;
+    top: 3400px;
+    left: 50px;
+    width: 400px;
+    height: 250px;
+}
+#black7{
+         position: absolute;
+    top: 3400px;
+    left: 480px;
+    width: 400px;
+    height: 250px;
+}
+#black8{
+         position: absolute;
+    top: 3400px;
+    left: 900px;
+    width: 400px;
+    height: 250px;
+}
+#name{
+        position: absolute;
+    top: 2860px;
+    left: 120px;
+    
+}
+#dha{
+          position: absolute;
+    top: 3260px;
+    left: 200px;
+}
+#bharia{
+            position: absolute;
+    top: 3260px;
+    left: 600px;
+}
+#gujar{
+              position: absolute;
+    top: 3260px;
+    left: 1000px;
+}
+#lahore{
+            position: absolute;
+    top: 3670px;
+    left: 200px;
+}
+#gujrat{
+              position: absolute;
+    top: 3670px;
+    left: 600px;
+}
+#sahiwal{
+                position: absolute;
+    top: 3670px;
+    left: 1000px;
+}
+#name1{
+        position: absolute;
+    top: 2860px;
+    left: 600px; 
+}
+#name2{
+          position: absolute;
+    top: 2860px;
+    left: 1000px; 
+}
+#name3{
+       position: absolute;
+    top: 2880px;
+    left: 120px;
+
+     
+}
+#meta{
+         position: absolute;
+    top: 3280px;
+    left: 200px;
+}
+#meta1{
+              position: absolute;
+    top: 3280px;
+    left: 600px;
+}
+#meta2{
+                position: absolute;
+    top: 3280px;
+    left: 1000px;
+}
+#meta3{
+           position: absolute;
+    top: 3690px;
+    left: 200px;
+}
+#meta4{
+             position: absolute;
+    top: 3690px;
+    left: 600px;
+}
+#meta5{
+               position: absolute;
+    top: 3690px;
+    left: 1000px;
+}
+
+#phone4{
+          position: absolute;
+    top: 3300px;
+    left: 200px; 
+}
+#phone5{
+                position: absolute;
+    top: 3300px;
+    left: 600px;
+}
+#phone6{
+                  position: absolute;
+    top: 3300px;
+    left: 1000px;
+}
+#phone7{
+             position: absolute;
+    top: 3710px;
+    left: 200px;
+}
+#phone8{
+               position: absolute;
+    top: 3710px;
+    left: 600px;
+}
+#phone9{
+                 position: absolute;
+    top: 3710px;
+    left: 1000px;
+}
+
+.button12{
+            position: absolute;
+    top: 3330px;
+    left: 200px;
+        border-radius: 40%;
+    padding: 10px; 
+}
+.button13{
+              position: absolute;
+    top: 3330px;
+    left: 600px;
+        border-radius: 40%;
+    padding: 10px; 
+    }
+    .button14{
+                    position: absolute;
+    top: 3736px;
+    left: 200px;
+        border-radius: 40%;
+    padding: 10px;
+    }
+    .button15{
+                    position: absolute;
+    top: 3736px;
+    left: 600px;
+        border-radius: 40%;
+    padding: 10px;
+    }
+    .button16{
+                    position: absolute;
+    top: 3736px;
+    left: 1000px;
+        border-radius: 40%;
+    padding: 10px;
+    }
+.button17{
+                    position: absolute;
+    top: 3330px;
+    left: 1000px;
+        border-radius: 40%;
+    padding: 10px;
+}
+    
+#name4{
+          position: absolute;
+    top: 2880px;
+    left: 600px;
+     
+}
+#name5{
+            position: absolute;
+    top: 2880px;
+    left: 1000px; 
+}
+#phone1{
+         position: absolute;
+    top: 2900px;
+    left: 120px;
+
+}
+#phone2{
+           position: absolute;
+    top: 2900px;
+    left: 600px;
+}
+#phone3{
+             position: absolute;
+    top: 2900px;
+    left: 1000px;
+}
+.button9{
+       position: absolute;
+    top: 2930px;
+    left: 130px;
+    border-radius: 40%;
+    padding: 10px;
+}
+.button10{
+         position: absolute;
+    top: 2930px;
+    left: 600px;
+    border-radius: 40%;
+    padding: 10px;
+}
+.button11{
+         position: absolute;
+    top: 2930px;
+    left: 1000px;
+    border-radius: 40%;
+    padding: 10px;
+}
+.bg2{
+  background-color: rgb(39, 39, 39);
+position: absolute;
+top:3800px ;
+left: 0px;
+   width: 1350px;
+     height: 500px;
+}
